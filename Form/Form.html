@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8" /> 
+    <title>
+		Form
+	</title>
+	<link rel="stylesheet" type="text/css" href="Form.css" />
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script type="text/javascript" src="Form.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.1.47/jquery.form-validator.min.js"></script> 
+</head>
+
+<body>
+
+<div id="form">
+	<div id="username">
+		<form>
+			Username <input id="input1" type="text" />
+			<img id="img-user" />
+		</form>
+	</div>
+	
+	<div id="email">
+		<form>
+			Email Address <input id="input2" type="text" />
+			<img id="img-email" />
+		</form>
+	</div>
+	
+	<div id="password">
+		<form>
+			Password <input id="input3" type="text" />
+		</form>
+		<ul>
+			<li><img id="img-pass1" />more than 6 characters</li>
+			<li><img id="img-pass2" />1 lower case letter</li>
+			<li><img id="img-pass3" />1 upper case letter</li>
+			<li><img id="img-pass4" />1 number</li>
+			<li><img id="img-pass5" />1 special character</li>
+		</ul>
+	</div>
+	
+	<div id="city">
+		<form>
+			City <input id="input4" type="text" />
+			<img id="img-city" />
+		</form>
+	</div>
+	
+	<div id="country">
+		<form action="">
+			Country <input id="ca" type="radio" name="country" value="ca"><label for="ca">Canada</label>
+					<input id="us" type="radio" name="country" value="us"><label for="us">US</label>
+		</form>
+	</div>
+</div>
+
+</body>
+
+</html>
