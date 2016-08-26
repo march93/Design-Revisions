@@ -1,0 +1,483 @@
+/* Design Revisions CSS */
+
+/* Main Header */
+div.main-header {
+	height: 400px;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background: url(header-bg.jpg) no-repeat;
+	position: absolute;
+	left: 0;
+	right: 0;
+	z-index: -1;
+}
+
+/* Header Phone Image */
+img.large-phone {
+	width: 458px;
+	height: 400px;
+	position: absolute;
+	right: 230px;
+	top: 0;
+	z-index: -1;
+}
+
+/* Header White Text */
+p.header-text {
+	font-size: 42px;
+	text-decoration: bold;
+	color: #FFFFFF;
+	width: 500px;
+	z-index: 1;
+	position: absolute;
+	top: 70px;
+	left: 90px;
+}
+
+/* View Our Phones Tab */
+a.left-button {
+	position: absolute;
+	background: url(button1a.png) no-repeat;
+	text-decoration: none;
+	color: #151515;
+	padding: 20px 25px;
+	top: 310px;
+	left: 90px;
+	width: auto;
+	height: auto;
+	text-align: center;
+	z-index: 1;
+}
+
+a.left-button:hover {
+	position: absolute;
+	background: url(button1b.png) no-repeat;
+}
+
+/* View Other Stuff Tab */
+a.right-button {
+	position: absolute;
+	background: url(button1a.png) no-repeat;
+	text-decoration: none;
+	color: #151515;
+	padding: 20px 25px;
+	top: 310px;
+	left: 350px;
+	width: auto;
+	height: auto;
+	text-align: center;
+	z-index: 1;
+}
+	
+a.right-button:hover {
+	position: absolute;
+	background: url(button1b.png) no-repeat;
+}
+
+/* Navigation Bar */
+div#main-nav { 
+	opacity: 0.6;
+	height: 70px;
+	width: 100%;
+	background-color: #151515;
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+
+/* Logo */
+#main-nav img {
+	height: 70px;
+	width: 150px;
+	opacity: 1;
+	float: left;
+	margin-left: 50px;
+	padding: 0;
+}
+
+#main-nav ul {
+	list-style-type: none;
+	width: auto;
+	margin-top: 17px;
+	padding: 0;
+	position: absolute;
+	right: 130px;
+}
+
+#main-nav ul li {
+	float: left;
+	margin: 0 10px;
+	padding: 0;
+	border: 0 #151515;
+	background: #151515;
+	border-radius: 20px;
+}
+
+#main-nav ul li a {
+	display: block;
+	text-align: center;
+	color: #FFFFFF;
+	text-decoration: none;
+	width: auto;
+	font-size: 24px;
+	padding: 7px 10px;
+}
+
+#main-nav ul li a:hover {
+	background-color: #A4A4A4;
+	border: 0 #A4A4A4;
+	border-radius: 20px;
+}
+
+/* Product Section */	
+div#more-products {
+	width: 100%;
+	height: 400px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	z-index: 1;
+	top: 395px;
+	left: 0;
+	background: #FFFFFF;
+	opacity: 0.7;
+}
+
+/* Product Section Header */
+#more-products h1 {
+	font-size: 36px;
+	text-decoration: none;
+	width: 88%;
+	margin: 0;
+	padding: 0;
+	border-bottom: 2px solid #A4A4A4;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+}
+
+/* Subsection Header */
+#more-products h2 {
+	font-size: 24px;
+	text-decoration: none;
+	text-align: left;
+	width: 370px;
+}
+
+/* Subsection Paragraph */
+#more-products p {
+	width: 370px;
+}
+
+/* Subsection Phone Images */
+#more-products img {
+	width: 370px;
+	height: 150px;
+}
+
+/* Subsection List */
+ul.subsections {
+	width: 88%;
+	height: 320px;
+	margin: 15px 0;
+	margin-left: auto;
+	margin-right: auto;
+	list-style-type: none;
+	padding: 0;
+	border-bottom: 2px solid #A4A4A4;
+}
+
+li.subsection {
+	list-style-type: none;
+	width: auto;
+	float: left;
+	margin-left: 0;
+}
+
+/* Individual Subsection List */
+ul.individual-subsection {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul.middle-section {
+	list-style-type: none;
+	margin: 0 38px;
+	padding: 0;
+}
+
+/* More Blurb Block */
+div.more-blurb {
+	width: 88%;
+	height: 360px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 800px;
+	left: 80px;
+}
+
+/* More Blurb Left-Hand Side */
+div.blurb {
+	width: 53%;
+	height: 330px;
+	margin: 0;
+	padding: 0;
+}
+
+/* Blurb Header */
+h3.blurb-header {
+	font-size: 34px;
+	margin-top: 20px;
+	padding: 0;
+}
+
+/* Blurb Paragraph */
+p.blurb-paragraph {
+	margin-top: -30px;
+	padding: 0;
+}
+
+/* Blurb Text On Image */
+p.blurb-img-pic {
+	font-style: italic;
+	font-size: 14px;
+	width: 180px;
+	height: 50px;
+	text-align: left;
+	position: absolute;
+	top: 205px;
+	left: 180px;
+}
+
+/* Blurb Phone Image */
+img.phone-widget {
+	width: 380px;
+	height: 84px;
+	margin-top: 10px;
+}
+
+/* Blurb More Info Link */
+a.more-info {
+	background: url(button2a.png) no-repeat;
+	width: auto;
+	height: auto;
+	text-decoration: none;
+	padding: 16px 35px;
+	position: absolute;
+	top: 225px;
+	left: 450px;
+	text-align: center;
+}
+
+a.more-info:hover {
+	background: url(button2b.png) no-repeat;
+}
+
+/* Border Between Blurb And Blog */
+img.vertsep {
+	width: 11px;
+	height: 302px;
+	position: absolute;
+	top: 20px;
+	left: 650px;
+}
+
+/* Blog List */
+ul.blurb-blog {
+	float: right;
+	height: 330px;
+	width: 41%;
+	margin-top: -300px;
+	padding-left: 20px;
+}
+
+/* Blog Header */
+li.blog-header {
+	list-style-type: none;
+	padding: 0;
+	margin-bottom: 30px;
+}
+
+h4 {
+	margin: 0;
+	padding: 0;
+	font-size: 23px;
+	position: absolute;
+	top: 25px;
+	left: 680px;
+}
+
+/* Purple Bullet */
+li.blog-purple {
+	list-style-type: none;
+	background: url(thumb01.png) no-repeat;
+	width: 100%;
+	height: 60px;
+	margin-left: -20px;
+	padding-left: 75px;
+}
+
+/* Yellow Bullet */
+li.blog-yellow {
+	list-style-type: none;
+	background: url(thumb02.png) no-repeat;
+	width: 100%;
+	height: 60px;
+	margin-top: 70px;
+	margin-left: -20px;
+	padding-left: 75px;
+}
+
+/* Purple/Yellow Bullet Header */
+h5 {
+	font-size: 19px;
+	margin: 0;
+	padding: 0;
+}
+
+/* Purple/Yellow Bullet Paragraph */
+p.blog-img-text {
+	width: 90%;
+	font-size: 17px;
+	padding: 0;
+	margin-top: 3px;
+}
+
+/* Footer Block */
+div.footer {
+	background: url(footer-bg.jpg) no-repeat;
+	width: 100%;
+	height: 200px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 1170px;
+	left: 0;
+	z-index: -1;
+}
+
+/* Footer Subsection 1 */
+div.footer-sub1 {
+	float: left;
+	width: 260px;
+	height: 100px;
+	margin-left: 70px;
+	margin-top: 30px;
+	padding: 0;
+	border-right: 2px solid #A4A4A4;
+}
+
+/* Footer Header */
+h6 {
+	margin: 0;
+	padding-top: 0;
+	padding-bottom: 10px;
+	font-size: 30px;
+	color: #FFFFFF;
+}
+
+/* Email Input Form */
+input {
+	float: left;
+	margin-top: 7px;
+	width: 170px;
+	height: 25px;
+	opacity: 0.4;
+	border: 2px solid;
+}
+
+/* Subsection 1 Go Button */
+a.go-button {
+	float: right;
+	background: url(button3a.png) no-repeat;
+	text-decoration: none;
+	height: 30px;
+	width: 28px;
+	margin: 0;
+	margin-right: 30px;
+	padding-top: 12px;
+	padding-left: 15px;
+}
+
+a.go-button:hover {
+	background: url(button3b.png) no-repeat;
+}
+
+/* Footer Subsection 2 */
+div.footer-sub2 {
+	float: left;
+	width: 270px;
+	height: 100px;
+	margin-left: 30px;
+	margin-top: 30px;
+	padding: 0;
+	border-right: 2px solid #A4A4A4;
+}
+
+/* Subsection 2/3 Content */
+p.address-contact {
+	font-style: italic;
+	color: #424242;
+	font-size: 16px;
+	width: 200px;
+	margin: 0;
+	padding: 0;
+}
+
+/* Footer Subsection 3 */
+div.footer-sub3 {
+	float: left;
+	width: 270px;
+	height: 100px;
+	margin-left: 30px;
+	margin-top: 30px;
+	padding: 0;
+	border-right: 2px solid #A4A4A4;
+}
+
+/* Footer Subsection 4 */
+div.footer-sub4 {
+	float: left;
+	width: 270px;
+	height: 100px;
+	margin-left: 30px;
+	margin-top: 30px;
+	padding: 0;
+}
+
+/* Social Media Links */
+img.assets {
+	padding: 0;
+	margin-top: 5px;
+	margin-right: 20px;
+}
+
+/* Footer Copyright Info */
+div.copyright-block {
+	float: left;
+	width: 100%;
+	height: auto;
+	margin-top: 25px;
+	border-top: 2px solid #A4A4A4;
+}
+
+/* Copyright Content */
+p.copyright {
+	color: #424242;
+	float: left;
+	width: auto;
+	margin: 0;
+	margin-left: 65px;
+	padding-top: 12px;
+}
+
+div#content {
+        margin-left:auto;
+        margin-right:auto;
+	width: 1366px;
+    position: relative;
+	background: #151515;
+}
