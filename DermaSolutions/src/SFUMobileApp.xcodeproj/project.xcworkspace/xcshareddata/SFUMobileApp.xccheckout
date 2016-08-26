@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>55D5558C-A388-4601-86E9-2AE477DB508D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SFUMobileApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>50FFF55DB2EAB9CF933F6D10DD74248A3DE541E0</key>
+		<string>https://bitbucket.org/20151cmpt_275/2015-1-cmpt_275_team_08.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>src/SFUMobileApp.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>50FFF55DB2EAB9CF933F6D10DD74248A3DE541E0</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/20151cmpt_275/2015-1-cmpt_275_team_08.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>50FFF55DB2EAB9CF933F6D10DD74248A3DE541E0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>50FFF55DB2EAB9CF933F6D10DD74248A3DE541E0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Git-3</string>
+		</dict>
+	</array>
+</dict>
+</plist>

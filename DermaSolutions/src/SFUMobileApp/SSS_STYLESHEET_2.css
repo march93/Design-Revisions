@@ -1,0 +1,94 @@
+
+
+
+
+
+
+
+
+
+
+
+.SSSTEXTWEEKLYTIME{font-family:Verdana, Geneva, sans-serif;font-size:12px;font-weight:bold;color:rgb(255,255,255);background-color:rgb(166,25,46);text-decoration: none;text-align:center;padding-top:5px;padding-bottom:5px;height:auto;display:block;}
+
+/*This controls the Time Title cell*/
+.SSSWEEKLYA1BACKGROUND{font-family:'Lucida Console', 'Lucida Sans Typewriter', monaco;font-size:18px;font-weight:bold;color:rgb(255,255,255);background-color:rgb(84,88,90);vertical-align:middle;border-width:1px;border-color:rgb(166,25,46);border-style:solid;}
+
+
+.SSSWEEKLYTIMEBACKGROUND{font-family:Verdana, Geneva, sans-serif;font-size:12px;font-weight:bold;color:rgb(255,255,255);background-color:rgb(166,25,46);vertical-align:middle;border-width:1px;border-color:rgb(166,25,46);border-top-style:none;border-bottom-style:solid;border-left-style:solid;border-right-style:solid;}
+
+
+.PSLEVEL3GRIDCOLUMNHDR,.SSSWEEKLYDAYBACKGROUND{font-family:Verdana, Geneva, sans-serif;font-size:12px;font-weight:bold;color:rgb(255,255,255);background-color:rgb(166,25,46);vertical-align:middle;border-width:1px;border-color:rgb(166,25,46);border-top-style:solid;border-bottom-style:solid;border-left-style:none;border-right-style:solid;}
+
+//////
+
+
+
+.SSSTEXTTURQBOLD{font-family:Verdana, Geneva, sans-serif;font-size:12px;font-weight:bold;color:rgb(0,0,0);text-decoration: none;}
+.SSSWEEKLYBACKGROUND{font-family:Verdana, Geneva, sans-serif;font-size:12px;font-weight:bold;font-style:normal;color:rgb(255,255,225);background-color:rgb(166,25,46);text-align:center;border-top-width:1px;border-bottom-width:2px;border-left-width:1px;border-right-width:2px;border-top-color:rgb(255,255,255);border-bottom-color:rgb(0,0,0);border-left-color:rgb(255,255,255);border-right-color:rgb(0,0,0);border-style:solid;white-space:nowrap;}
+
+
+
+
+
+
+
+
+
+
+
+.SSSWEEKLYLTLINE{font-family:Verdana, Geneva, sans-serif;font-size:8pt;font-weight:normal;font-style:normal;color:rgb(0,0,0);border-width:1px;border-color:rgb(190,160,30);border-top-style:none;border-bottom-style:dotted;border-left-style:none;border-right-style:solid;}
+.PSLEVEL3GRID{font-family:Verdana, Geneva, sans-serif;font-size:8pt;font-weight:normal;font-style:normal;color:rgb(0,0,0);border-width:1px;border-color:rgb(190,160,30);border-top-style:none;border-bottom-style:solid;border-left-style:none;border-right-style:solid;}
+
+
+/**************************************************************/
+
+
+
+
+
+/*Controls frame*/
+.PSFRAMEWBO{border-width:4px;border-color:rgb(190,160,30);border-style:solid;}
+
+
+
+
+
+
+/*controls the course title if it can go over the html source*/
+
+.PABOLDBLUETEXT[style] {
+    color:rgb(255,255,255) !important;
+}
+.PABOLDBLUETEXT{font-family:Arial,sans-serif;font-size:12pt;font-weight:bold;font-style:normal;color:rgb(255,255,255);}
+
+
+/*controls location see exam*/
+.PABOLDTEXT{font-family:Verdana,Arial,sans-serif;font-size:10px;font-weight:bold;font-style:normal;color:rgb(0,0,0);}
+
+/* Controls sub-titles texts*/
+.PSDROPDOWNLABEL,.PSEDITBOXLABEL,.PSRADIOBUTTON{font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;font-size:14px;font-weight:bold;font-style:normal;color:rgb(255,255,255);vertical-align:middle;}
+
+
+/*controls class number*/
+.PAADDITIONALINSTRUCTIONS,.PSDROPDOWNLIST,.PSHYPERLINKDISABLED,.PSLONGEDITBOX,.PSHYPERLINKDISABLED,.PSHYPERLINKNOULDISABLED,.PSHYPERLINKNOULBOLDDISABLED,.PSHYPERLINKNOULBOLDHOVERDISABLED,.PSHYPERLINKNOULHOVERDISABLED,.PSSRCHRESULTSEVENROWDISABLED,.PSSRCHRESULTSODDROWDISABLED{font-family:Verdana,Arial,sans-serif;font-size:10px;font-weight:normal;font-style:normal;color:rgb(190,160,30);}
+
+
+/*controlls smallest box*/
+.PSLEVEL1GRIDEVENROW{font-family:Verdana, Geneva, sans-serif;font-size:10px;font-weight:normal;font-style:normal;color:rgb(0,0,0);background-color:rgb(84,88,90);vertical-align:middle;padding:2px;border-bottom-width:1px;border-right-width:1px;border-bottom-color:rgb(255,255,255);border-right-color:rgb(255,255,255);border-bottom-style:solid;border-right-style:solid;}
+/* controls middle boxes*/
+.PSLEVEL1GRIDODDROW{font-family:Verdana, Geneva, sans-serif;font-size:10px;font-weight:normal;font-style:normal;color:rgb(0,0,0);background-color:rgb(84,88,90);vertical-align:middle;padding-top:2px;border-bottom-width:1px;border-right-width:1px;border-bottom-color:rgb(255,255,255);border-right-color:rgb(255,255,255);border-bottom-style:solid;border-right-style:solid;}
+
+
+
+/* controls content text */
+.PSEDITBOX_DISPONLY,.PSLONGEDITBOXDISABLED{font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;font-size:12px;font-weight:normal;font-style:normal;color:rgb(255,255,255);vertical-align:middle;border-width:1px;border-top-style:none;border-bottom-style:none;border-left-style:none;border-right-style:none;}
+
+
+
+
+/**/
+
+{
+    background-color:rgb(193,201,219);
+}
